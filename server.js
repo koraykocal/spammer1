@@ -1,34 +1,32 @@
-// server.js
-// where your node app starts
+const {
+  tokens,
+  voice_channel,
+  text_channel,
+  your_server
+} = require("./config.js");
+const time = [1];
+const Discord = require("discord.js");
+tokens.forEach(token => {
+  const client = new Discord.Client();
+  client.login(token);
 
-// we've started you off with Express (https://expressjs.com/)
-// but feel free to use whatever libraries or frameworks you'd like through `package.json`.
-const express = require("express");
-const app = express();
+  client.on("message", async message => {
+    if (message.guild.id != your_server) return;
+    if (
+      message.author.id == "282859044593598464" && // تعديل مهم ايدي بوت الترحيب
+      message.content.includes("SALAM") /// (الاستقبال) تعديل مهم رسالة الترحيب
+    ) {
+      setTimeout(() => {
+        message.channel.send("SALAM"); ///  (الارسال)تعديل مهم رسالة الترحيب
+      }, time[Math.floor(Math.random() * time.length)]);
+    }
+  });
 
-// our default array of dreams
-const dreams = [
-  "Find and count some sheep",
-  "Climb a really tall mountain",
-  "Wash the dishes"
-];
-
-// make all the files in 'public' available
-// https://expressjs.com/en/starter/static-files.html
-app.use(express.static("public"));
-
-// https://expressjs.com/en/starter/basic-routing.html
-app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/views/index.html");
-});
-
-// send the default array of dreams to the webpage
-app.get("/dreams", (request, response) => {
-  // express helps us take JS objects and send them as JSON
-  response.json(dreams);
-});
-
-// listen for requests :)
-const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
+  client.on("ready", () => {
+    console.log(client.user.tag + " is ready!");
+    client.guilds
+      .get(your_server)
+      .channels.get(voice_channel)
+      .join();
+  });
 });
