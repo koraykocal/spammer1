@@ -2,7 +2,7 @@ module.exports = {
   tokens: [
     "NzU5MjM1MzYzNDk0NjkwODQ2.X26jcw.M9SpLfGyymcx5tL45SCEYHKrNIY",
     "NzU5MjM3NTUzOTA3MTcxMzY5.X26l8g.Y7J-kTFfbTvU6beeZK0Gyw6fG7E",
-    "token",
+    "NzU5MjQyMjA4OTc2MDQ0MDY1.X26prg.1_LVwbR7TA_U-Y3MBV4lWM2YXJY",
     "token",
     "token",
     "token",
