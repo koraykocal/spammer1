@@ -6,7 +6,7 @@ module.exports = {
     "NzU5MjQ3NDkzNDA1MDgxNjgx.X26utQ.ovh8ihko5lMRwQAv8sGxlwROIJU",
     "NzU5MjUwODc1NTc0Nzc5OTY0.X26xwA.TVnI8i_KfMcn8GieX7fRnNwl6PQ",
     "NzU5MjUyMjUzODY5MDgwNjQ2.X26zZw.czQPXopjw3Sl1R2Aq61ZydSEhJg",
-    "token",
+    "NzU5NDcwMDM0ODk1NjM0NTAz.X2990A.PxCrkXjpB8kV8xifalgX7RM3Lp4",
     "token",
     "token",
     "token",
