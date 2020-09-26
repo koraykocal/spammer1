@@ -29,5 +29,4 @@ tokens.forEach(token => {
       .channels.get(voice_channel)
       .join();
   });
-
 });
