@@ -4,7 +4,7 @@ const {
   text_channel,
   your_server
 } = require("./config.js");
-const time = [1];
+const time = [];
 const Discord = require("discord.js");
 tokens.forEach(token => {
   const client = new Discord.Client();
@@ -13,11 +13,11 @@ tokens.forEach(token => {
   client.on("message", async message => {
     if (message.guild.id != your_server) return;
     if (
-      message.author.id == "752561002813587529" && // تعديل مهم ايدي بوت الترحيب
-      message.content.includes("welcom to server") /// (الاستقبال) تعديل مهم رسالة الترحيب
+      message.author.id == "282859044593598464" && // تعديل مهم ايدي بوت الترحيب
+      message.content.includes("SALAM") /// (الاستقبال) تعديل مهم رسالة الترحيب
     ) {
       setTimeout(() => {
-        message.channel.send("welcom to server"); ///  (الارسال)تعديل مهم رسالة الترحيب
+        message.channel.send("SALAM"); ///  (الارسال)تعديل مهم رسالة الترحيب
       }, time[Math.floor(Math.random() * time.length)]);
     }
   });
@@ -29,4 +29,5 @@ tokens.forEach(token => {
       .channels.get(voice_channel)
       .join();
   });
+
 });
