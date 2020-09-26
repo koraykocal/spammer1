@@ -13,7 +13,7 @@ module.exports = {
     "NzU5NDc0NTEzNDYwMTk5NDU0.X2-CLw.I9tTjafcxhiuVgClgVfcc2k_RZc",
     "NzU5NDc1NjY4NzI2OTcyNDQ2.X2-DMA._If60VZHTx7uyA1PJveWPGIyox4",
     "NzU5NDgxMTQ2MzI0NTQ5NjUz.X2-IMQ.chFIku6B9pC7fzHY07TT4DPAaok",
-    "token",
+    "NzU5NDg1NjQ1Nzg5NTkzNjUw.X2-MeQ.SeZbnletcRETJr__mMKNjCLgqA8",
     "token",
     "token",
     "token",
