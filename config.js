@@ -1,8 +1,7 @@
 module.exports = {
   tokens: [
-    "NzQzOTUzMjU5OTQwNTQ0NTY0.XzcKug.xGnROCTwK0-C6hQufWgHoOC6-Io",
-    "NzQzNDU0MTE0ODYzNzc1Nzc0.XzU5vA.ziww5RkYc9Y2Vc7u_V_bAL_2214",
-    "NzUzMDM2Mzc5MTUxMjY5OTM3.X1gWMg.40WH1gGpFLnNay80L2wlQuyqiwI",
+    "NzU5MjM1MzYzNDk0NjkwODQ2.X26jcw.M9SpLfGyymcx5tL45SCEYHKrNIY",
+    "NzU5MjM3NTUzOTA3MTcxMzY5.X26l8g.Y7J-kTFfbTvU6beeZK0Gyw6fG7E",
     "token",
     "token",
     "token",
@@ -21,11 +20,8 @@ module.exports = {
     "token",
     "token",
     "token",
-    "token",
-    "token",
-    "token"
   ], ///توكنات حسابات الترحيب
-  voice_channel: "739971339477188741", ///ايدي الروم اللي بدك يثبت فيه
+  voice_channel: "758771520700284988", ///ايدي الروم اللي بدك يثبت فيه
   text_channel: "750741284347445258", ///ايدي روم اللي بدك يرحب فيه
-  your_server: "682993493395898380" /// ايدي السيرفر تبعك
+  your_server: "721019622240944129" /// ايدي السيرفر تبعك
 };
